@@ -1,0 +1,8 @@
+integer = input("Please enter a positive integer: ")
+number=int(integer)
+sum=0
+current_number=0
+while current_number <= number:
+  sum += current_number
+  current_number +=1
+print("the sum from 0 up to" , number, "is", sum)
